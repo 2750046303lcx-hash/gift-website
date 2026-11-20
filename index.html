@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你的品牌名 | 高端艺术礼品定制</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">你的品牌LOGO</div>
+            <div class="nav-menu">
+                <a href="#home">首页</a>
+                <a href="#products">产品中心</a>
+                <a href="#about">关于我们</a>
+                <a href="#contact">联系我们</a>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索产品名称...">
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏Banner -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>现代艺术礼品 · 高端定制</h1>
+            <p>为企业打造有温度、有质感的礼赠解决方案</p>
+            <a href="#products" class="btn-primary">查看全部产品</a>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我们</h2>
+            <div class="about-content">
+                <p>我们专注于现代艺术礼品的设计与定制，融合艺术美学与实用功能，为企业客户提供一站式礼赠方案。从创意设计到生产交付，全程把控品质，让每一份礼品都承载品牌温度。</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <h3>原创设计</h3>
+                        <p>独立设计师团队，打造差异化礼品</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>定制服务</h3>
+                        <p>支持LOGO、材质、包装全维度定制</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>品质保障</h3>
+                        <p>严选材质，全流程品控，交付无忧</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品中心 -->
+    <section id="products" class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">产品中心</h2>
+            
+            <!-- 分类筛选 -->
+            <div class="category-filter">
+                <button class="cate-btn active" data-category="all">全部产品</button>
+                <button class="cate-btn" data-category="business">商务礼品</button>
+                <button class="cate-btn" data-category="art">艺术摆件</button>
+                <button class="cate-btn" data-category="custom">定制礼盒</button>
+            </div>
+
+            <!-- 产品网格 -->
+            <div class="products-grid" id="productsGrid">
+                <!-- 产品1 -->
+                <div class="product-card" data-category="business" data-name="山水商务礼盒">
+                    <div class="product-img">
+                        <img src="/images/product1.jpg" alt="山水商务礼盒">
+                    </div>
+                    <div class="product-info">
+                        <h3>山水商务礼盒</h3>
+                        <p>新中式山水意象，高端商务往来首选</p>
+                        <span class="product-price">¥398起</span>
+                    </div>
+                </div>
+
+                <!-- 产品2 -->
+                <div class="product-card" data-category="art" data-name="极简艺术花瓶">
+                    <div class="product-img">
+                        <img src="/images/product2.jpg" alt="极简艺术花瓶">
+                    </div>
+                    <div class="product-info">
+                        <h3>极简艺术花瓶</h3>
+                        <p>手工陶瓷材质，现代简约空间美学</p>
+                        <span class="product-price">¥268</span>
+                    </div>
+                </div>
+
+                <!-- 产品3 -->
+                <div class="product-card" data-category="custom" data-name="企业专属定制套盒">
+                    <div class="product-img">
+                        <img src="/images/product3.jpg" alt="企业专属定制套盒">
+                    </div>
+                    <div class="product-info">
+                        <h3>企业专属定制套盒</h3>
+                        <p>全案定制，融入品牌视觉与文化理念</p>
+                        <span class="product-price">按需报价</span>
+                    </div>
+                </div>
+
+                <!-- 产品4 -->
+                <div class="product-card" data-category="business" data-name="金属书签套装">
+                    <div class="product-img">
+                        <img src="/images/product4.jpg" alt="金属书签套装">
+                    </div>
+                    <div class="product-info">
+                        <h3>金属书签套装</h3>
+                        <p>黄铜材质，蚀刻工艺，文创伴手礼优选</p>
+                        <span class="product-price">¥128</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-item">
+                    <h3>咨询热线</h3>
+                    <p>138-XXXX-XXXX</p>
+                </div>
+                <div class="contact-item">
+                    <h3>商务邮箱</h3>
+                    <p>contact@yourbrand.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>公司地址</h3>
+                    <p>XX市XX区XX路XX号创意产业园</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 你的品牌名称. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
